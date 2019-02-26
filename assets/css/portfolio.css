@@ -1,0 +1,126 @@
+/* Portfolio Page */
+
+/* Name */
+.name {
+    background-color: #4aaaa5;
+    font-size: 25px;
+    color: #ffffff;
+    width: 240px;
+    height: 70px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 100;
+    
+}
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #4aaaa5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  h1 {
+      align-items: start;
+  }
+
+  /* Portfolio Heading */
+  h2 {
+    color: #4aaaa5;
+  }
+
+/* Portfolio Picture Area */
+* {
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+@media screen and (max-width:640px) {
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 980px, 768px, 640px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 980px, 768px, 640px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Footer */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    text-align: center;
+   }

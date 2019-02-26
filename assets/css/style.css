@@ -1,0 +1,82 @@
+/* About Page */
+
+/* Name */
+.name {
+    background-color: #4aaaa5;
+    font-size: 25px;
+    color: #ffffff;
+    width: 240px;
+    height: 70px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 100;
+}   
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #4aaaa5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+   h1 {
+      align-items: start;
+      position: static;
+  }
+
+  /* Bio Section */
+  .biosection{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 50px 400px;
+      background-color: #ffffff;
+      padding: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  /* About Me Heading */
+  .biosection h1 {
+     margin-top: 5px;
+     margin-bottom: 5px;
+     color: teal; 
+  }
+ 
+  /* Profile Picture */
+  img {
+    grid-column: 1;
+    margin-right: 0;
+    padding: 10px;
+    width: 500px;
+  }
+  /* Footer */
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:#666666;
+      color: white;
+      text-align: center;
+     }
+
+    
+
+
+    
